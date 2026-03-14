@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("Masukkan sebuah angka dalam bentuk string: ");
+  stdout.write("Masukkan sebuah angka dalam Bentuk string: ");
   String? input = stdin.readLineSync();
-  
+
   if (input != null && input.isNotEmpty) {
     int angka = int.parse(input);
     print("Nilai int adalah: $angka");
